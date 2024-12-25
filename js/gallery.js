@@ -60,7 +60,7 @@ const createGalleryIteam = image => {
     <a class="gallery-link" href="${image.original}">
        <img class="gallery-image"
        src="${image.preview}"
-       data.source="${image.original}"
+       data-source="${image.original}"
        alt="${image.description}" 
      />
     </a>
